@@ -1,0 +1,15 @@
+.container-nav{
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(28, 27, 27, 1) 55%, rgb(61, 61, 61) 100%);
+    color: white;
+    
+}
+.nav-list{
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: rgb(230, 32, 32);
+}
+
+li{
+    list-style:none;
+}
