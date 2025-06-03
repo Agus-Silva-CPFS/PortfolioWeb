@@ -1,0 +1,33 @@
+.fondo-main{
+    background: linear-gradient(to right top, #ff0000 20%, #000000 70%);
+    color:white;
+    height: 100vh;    
+}
+.img-inicio {
+  width: 20rem;
+  max-width: 90vw;
+  height: auto;
+  border-radius: 10%;
+}
+.contenedor-inicio{
+  max-width: 80vw;
+  align-self: center;
+  gap: 5%;
+}
+
+.contenedor-titulo h1 {
+    font-size: 3rem; 
+    margin: 0; 
+  }
+  
+.contenedor-titulo h1:nth-child(1) {
+    font-size: 2rem; 
+  }
+  
+.contenedor-titulo h1:nth-child(2) {
+    font-size: 5rem; 
+  }
+  
+.contenedor-titulo h1:nth-child(3) {
+    font-size: 2.8rem; 
+  }
