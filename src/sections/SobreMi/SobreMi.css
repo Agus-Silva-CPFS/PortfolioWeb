@@ -1,0 +1,13 @@
+.ctn-sobremi{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left top, #000000 30%,  #ff0000 80%);
+    color: white;
+}
+.ctn-texto{
+    box-shadow: 7px 10px 20px 5px rgba(71, 14, 14, 0.53);
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.687);
+    width: 35%;
+    border-radius: 5%;
+}
