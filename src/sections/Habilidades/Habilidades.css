@@ -1,0 +1,44 @@
+.ctn-habilidades {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left top, #000000 30%, #222121 80%);
+  color: white;
+  flex-direction: column;
+}
+
+.lista-habilidades {
+  display: grid;
+  height: 40vh;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  width: 40%;
+  justify-content: start;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative; 
+  top: -3rem
+}
+
+.item-habilidades {
+  max-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid red;
+  border-radius: 6px;
+  background-color: #111;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+  text-shadow: 1px 1px 4px rgba(255, 0, 0, 0.732);
+}
+
+.item-habilidades:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 0, 0, 1)inset;
+}
